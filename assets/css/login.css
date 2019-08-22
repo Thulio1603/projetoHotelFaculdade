@@ -1,6 +1,11 @@
-body{
-    background-color: black;
-    p{
-        font-size: 30px;
-    }
-}
+.body { background-image: -webkit-gradient(linear, left bottom, left top, from(#859bcf), color-stop(#007bff), to(#859bcf)); background-image: linear-gradient(to top, #859bcf, #007bff, #859bcf); }
+.body .content { width: 100%; }
+.body .content .form { width: 435px; margin: auto; }
+.body .content .form img { width: 100%; }
+.body .content .form span { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-flow: column; -ms-flex-flow: column; flex-flow: column; }
+.body .content .form span input { border: 2px solid #5c0ea7; -webkit-border-radius: 10px; border-radius: 10px; padding: 15px; margin: 15px 0px; background-color: transparent; color: black; }
+.body .content .form span ::-webkit-input-placeholder { color: #5c0ea7; }
+.body .content .form span ::-moz-placeholder { color: #5c0ea7; }
+.body .content .form span :-ms-input-placeholder { color: #5c0ea7; }
+.body .content .form span ::placeholder { color: #5c0ea7; }
+.body .content .form span .btn { height: 50px; color: #5c0ea7; }
