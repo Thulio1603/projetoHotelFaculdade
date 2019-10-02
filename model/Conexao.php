@@ -7,10 +7,9 @@ class Conexao {
             echo 'Erro ao conectar com o MySQL: ' . $e->getMessage();
         }
         try{
-            $sql = $query;
-            $result = $PDO->query( $sql );
-            $rows = $result->fetchAll();
-            print_r( $rows );
+            $result = $PDO->query( $query );
+            $rows = $result->fetchAll(PDO::FETCH_NUM);
+            return $rows;
         }catch ( PDOException $e ){
             echo 'Erro ao conectar com o MySQL: ' . $e->getMessage();
         }
@@ -23,7 +22,7 @@ class Conexao {
             echo 'Erro ao conectar com o MySQL: ' . $e->getMessage();
         }
         try{
-            $sql = $query;
+            $stmt = $PDO->prepare( $query );
             $result = $stmt->execute();
             
             if ( ! $result ){
