@@ -29,7 +29,6 @@ class Conexao {
                 var_dump( $stmt->errorInfo() );
                 exit;
             }
-            echo $stmt->rowCount() . "linhas inseridas";
         }catch ( PDOException $e ){
             echo 'Erro ao conectar com o MySQL: ' . $e->getMessage();
         }
