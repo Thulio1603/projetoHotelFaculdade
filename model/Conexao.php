@@ -8,7 +8,7 @@ class Conexao {
         }
         try{
             $result = $PDO->query( $query );
-            $rows = $result->fetchAll(PDO::FETCH_NUM);
+            $rows = $result->fetchAll(PDO::FETCH_ASSOC);
             return $rows;
         }catch ( PDOException $e ){
             echo 'Erro ao conectar com o MySQL: ' . $e->getMessage();
