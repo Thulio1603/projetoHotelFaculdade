@@ -1,0 +1,25 @@
+.body { background-image: url(//imguol.com.br:8080/projetoHotel/projetoHotelFaculdade/imagens/bg.png); }
+.body .content { width: 100%; }
+.body .content .form { background-image: -webkit-gradient(linear, left bottom, left top, from(#859bcf), color-stop(#007bff), to(#859bcf)); background-image: linear-gradient(to top, #859bcf, #007bff, #859bcf); width: 100%; max-width: 465px; margin: 42px auto; border: 2px solid transparent; -webkit-border-radius: 10%; border-radius: 10%; -webkit-box-shadow: 0px 20px 100px #000000; box-shadow: 0px 20px 100px #000000; }
+.body .content .form .bussola { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -webkit-flex-flow: row; -ms-flex-flow: row; flex-flow: row; }
+.body .content .form .bussola img { width: 100%; max-width: 115px; position: relative; left: 15px; top: 15px; margin-bottom: 15px; }
+.body .content .form .bussola h1 { font-family: Arial, Helvetica, sans-serif; font-weight: 300; font-size: 30px; margin: auto; position: relative; top: 8px; }
+.body .content .form span { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-flow: column; -ms-flex-flow: column; flex-flow: column; margin: auto; width: 100%; width: 435px; padding: 0px 42px 42px; }
+.body .content .form span label { width: 100%; font-family: Arial, Helvetica, sans-serif; font-size: 18px; font-weight: 700; margin: 0px; }
+.body .content .form span .quartos { width: 100%; text-align: left; }
+.body .content .form span .quartos .label { width: 100%; text-align: left; }
+.body .content .form span .quartos label { width: 20%; font-family: Arial, Helvetica, sans-serif; font-size: 18px; font-weight: 700px; margin: 0px; text-align: center; }
+.body .content .form span .banheiros { width: 100%; text-align: left; }
+.body .content .form span .banheiros .label { width: 100%; text-align: left; }
+.body .content .form span .banheiros label { width: 20%; font-family: Arial, Helvetica, sans-serif; font-size: 18px; font-weight: 700px; margin: 0px; text-align: center; }
+.body .content .form span .varanda { width: 100%; text-align: left; }
+.body .content .form span .varanda .label { width: 100%; text-align: left; }
+.body .content .form span .varanda label { width: 20%; font-family: Arial, Helvetica, sans-serif; font-size: 18px; font-weight: 700px; margin: 0px; text-align: center; }
+.body .content .form span input { border: 1px solid #000000; -webkit-border-radius: 10px; border-radius: 10px; padding: 15px; margin: 15px 0px; background-color: transparent; color: black; }
+.body .content .form span ::-webkit-input-placeholder { color: #000000; }
+.body .content .form span ::-moz-placeholder { color: #000000; }
+.body .content .form span :-ms-input-placeholder { color: #000000; }
+.body .content .form span ::placeholder { color: #000000; }
+.body .content .form span .btn { height: 50px; color: #000000; }
+.body .content .form span p { font-family: Arial, Helvetica, sans-serif; font-size: 15px; color: #000000; margin: 15px auto; }
+.body .content .form span p a { color: #000000; font-weight: bold; }

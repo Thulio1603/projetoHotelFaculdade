@@ -1,7 +1,6 @@
 <?php
     require_once 'Conexao.php';
 
-
     $sql = "SELECT * FROM `pessoa` WHERE nome = '".$_POST['name']."'";
 
     //seleção de cadastro no banco para verificar se usuário já existe

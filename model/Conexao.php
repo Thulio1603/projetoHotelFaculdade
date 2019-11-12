@@ -14,6 +14,7 @@ class Conexao {
             echo 'Erro ao conectar com o MySQL: ' . $e->getMessage();
         }
     }
+
     public function insert($query){
         try{
             $PDO = new PDO( 'mysql:host=' . 'localhost:3307' . ';dbname=' . 'hotel', 'root', 'usbw' );
@@ -33,6 +34,7 @@ class Conexao {
             echo 'Erro ao conectar com o MySQL: ' . $e->getMessage();
         }
     }
+
     public function delete($query){
         try{
             $PDO = new PDO( 'mysql:host=' . 'localhost:3307' . ';dbname=' . 'hotel', 'root', 'usbw' );
@@ -53,6 +55,7 @@ class Conexao {
             echo 'Erro ao conectar com o MySQL: ' . $e->getMessage();
         }
     }
+    
     public function update($query){
         try{
             $PDO = new PDO( 'mysql:host=' . 'localhost:3307' . ';dbname=' . 'hotel', 'root', 'usbw' );

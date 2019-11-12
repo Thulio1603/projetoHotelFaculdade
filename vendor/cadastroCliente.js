@@ -1,11 +1,12 @@
 $(document).ready(function() {
     $("#button").click(function(){
+        // caso usuário não tenha preenchido algum campo
         if($("#senha").val() == '' || $("#senha").val() == null && $("#name").val() == '' || $("#name").val() == null){
             alert('Todos os campos Devem ser preenchidos');
         }else{
             jQuery.ajax({
                 type: "POST",
-                url: "../model/cadastro.php",
+                url: "../model/cadastroCliente.php",
                 data: {
                         name: $("#name").val(),
                         senha: $("#senha").val()

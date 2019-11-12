@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <title>
+            Cadastro de Quarto
+        </title>
+        <meta charset="UTF-8">
+        <link rel="shortcut icon" href="../imagens/favicon.ico"/>
+        <link href="../assets/css/cadastroProduto.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <head>
+    <body class="body">
+        <div class="container">
+            <div class="row">
+                <div class="content text-center col-xs-24">
+                    <div class="form">
+                        <div class="bussola">
+                            <img src="//imguol.com.br:8080/projetoHotel/projetoHotelFaculdade/imagens/bussola.png">
+                            <h1>Cadastro de Quartos</h1>
+                        </div>
+                        <span>
+                            <input type="text" placeholder="Digite o endereço" id="name" name="name">
+                            <input type="text" placeholder="Preço" name="name">
+                            <div class="quartos">
+                                <label class="label">N° de Quartos</label>
+                                <input type="radio" name="quartos" value="1"><label>1</label>
+                                <input type="radio" name="quartos" value="2"><label>2</label>
+                                <input type="radio" name="quartos" value="3"><label>2</label>
+                                <input type="radio" name="quartos" value="+3"><label>+3</label>
+                            </div>                            
+                            <div class="banheiros">
+                                <label class="label">N° de Banheiros</label>
+                                <input type="radio" name="banheiro" value="1"><label>1</label>
+                                <input type="radio" name="banheiro" value="2"><label>2</label>
+                                <input type="radio" name="banheiro" value="3"><label>3</label>
+                                <input type="radio" name="banheiro" value="+3"><label>+3</label>
+                            </div>
+                            <div class="varanda">
+                                <label class="label">Varanda</label>
+                                <input type="radio" name="varanda" value="sim"><label>Sim</label>
+                                <input type="radio" name="varanda" value="nao"><label>Não</label>
+                            </div>
+
+                            <button id="button" class="btn btn-primary">CADASTRAR</button>
+                            <p><a href="index.html">PAINEL</a></p>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="../vendor/cadastro.js"></script>
+</html>
